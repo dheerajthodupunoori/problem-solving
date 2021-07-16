@@ -1,5 +1,11 @@
 https://leetcode.com/problems/set-matrix-zeroes/
 
+**Approach**
+    
+    > Create two sets row and columns which tracks the rows and columns at which 0 is present.
+    > Traverse the given matrix and where ever you find "0" , add that row position to row set and column position to col set.
+    > Now for each row , make that entire row as "0" . And similar to each column as well
+
 **Language:Python**
 
     class Solution:
