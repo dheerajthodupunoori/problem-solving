@@ -46,6 +46,12 @@ Determine index of the box where you finish eating B number of oranges. If you d
         You eat 1 orange from box 2, hence a total of 3 oranges.
         You eat 4 oranges from box 3, hence a total of 7 oranges.
         As you never complete 10 oranges, return -1.
+        
+**Approach**
+
+> Here you have to find out the index of oranges at which you will be able to eat the given number of oranges.
+> You cannot sort the oranges.
+> So the solution would be traverse the given oranges array and at each index decrement the required oranges count and check if still you need more oranges , if yes continue the process or else return the index.
 
 **Language:Python**
 
