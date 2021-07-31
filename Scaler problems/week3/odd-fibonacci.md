@@ -1,4 +1,4 @@
- #### Odd Fibonacci
+#### Odd Fibonacci
 
 **Problem Description**
 
@@ -115,6 +115,12 @@ Explanation 1:
 > If we observe above sequence , then we say that Fibonacci values always occur as pair of **(ODD,ODD,EVEN)**
 >
 > With this observation we just need to find out the number of odd number from **1->B** and substract this value with the number of odd numbers from **1->(A-1)**.
+
+
+
+[You can run the code at this url]: https://replit.com/@DheerajThodupun/odd-fibonacci#main.py	"Odd Fibonacci"
+
+
 
 #### Solution
 
