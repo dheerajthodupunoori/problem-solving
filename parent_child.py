@@ -76,6 +76,14 @@ def do_bfs(child_parent_map, child):
     return reacheable_parents_from_child
 
 
+# Question 2) Given the same parent-child relationship as above and 2 individual IDs ind1 and ind2, find if ind1 has
+# any common ancestors with ind2. Input: [(1, 3), (2, 3), (3, 6), (5, 6), (5, 7), (4, 5),(4, 8), (4, 9), (9, 11),
+# (14, 4), (13, 12), (12, 9)], ind1 = 6, ind2 = 9 Output: true
+#
+# Input: [(1, 3), (2, 3), (3, 6), (5, 6), (5, 7), (4, 5),(4, 8), (4, 9), (9, 11), (14, 4), (13, 12), (12, 9)],
+# ind1 = 3, ind2 = 1 Output: false
+
+
 def has_any_common_ancestors():
     child_parent_map = get_adjacency_list()
     print(child_parent_map)
