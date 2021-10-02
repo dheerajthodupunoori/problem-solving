@@ -13,7 +13,7 @@
 # ]
 
 
-def can_reach_position(grid, position = None):
+def can_reach_position(grid, position=None):
     row = len(grid)
     column = len(grid[0])
     visited = []
@@ -73,4 +73,3 @@ input = [
 ]
 
 print(can_reach_position(input))
-
