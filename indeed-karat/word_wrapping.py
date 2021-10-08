@@ -1,3 +1,5 @@
+# https://leetcode.com/discuss/interview-question/1058195/Indeed-or-Karat-Virtual-or-Justify-Text
+
 def word_wrap(words, limit):
     result = []
     temp = ""
